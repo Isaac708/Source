@@ -129,7 +129,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	
 	Line1.Name = "Line1"
 	Line1.Parent = TabBtns
-	Line1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Line1.BackgroundColor3 = Color3.fromRGB(170, 0, 170)
 	Line1.BorderSizePixel = 0
 	Line1.Position = UDim2.new(0.975000024, 0, 0.119999997, 0)
 	Line1.Size = UDim2.new(0, 4, 0, 220)
@@ -164,7 +164,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	
 	Line2.Name = "Line2"
 	Line2.Parent = Top
-	Line2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Line2.BackgroundColor3 = Color3.fromRGB(170, 0, 170)
 	Line2.BorderSizePixel = 0
 	Line2.Position = UDim2.new(0.277909726, 0, 0.866666675, 0)
 	Line2.Size = UDim2.new(0, 304, 0, 4)
@@ -176,7 +176,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	UiTitle.Size = UDim2.new(0, 421, 0, 26)
 	UiTitle.Font = Enum.Font.GothamSemibold
 	UiTitle.Text = "  " .. WindowText
-	UiTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+	UiTitle.TextColor3 = Color3.fromRGB(170, 0, 170)
 	UiTitle.TextSize = 14.000
 	UiTitle.TextXAlignment = Enum.TextXAlignment.Left
 	
